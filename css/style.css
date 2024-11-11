@@ -30,16 +30,15 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-    color: #434455;
+    color:#2e2f42;
 }
 
 
 .studio:hover{
     color:#404bbf;
 }
-.studio:active{
-    color:#404bbf;
+.studio:focus{
+    color: #404bbf;
 
 }
 
@@ -50,19 +49,27 @@ ul {
 .mail{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#404bbf;
+    color:#434455;
 }
 .mail:hover{
-    color:#434455;
+    color:#404bbf;
+}
+
+.mail:focus{
+    color: #404bbf;
 }
 .tel {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #434455;
 }
 
 .tel:hover {
-    color: #434455;
+    color: #404bbf;
+}
+
+.tel:focus{
+    color: #404bbf;
 }
 
 .title-button{
@@ -122,21 +129,10 @@ ul {
     color: #2e2f42;
 }
 
-.mark {
+.job-list {
     background-color: #FFFFFF;
 }
 
-.tom {
-    background-color: #FFFFFF;
-}
-
-.camila {
-    background-color: #FFFFFF;
-}
-
-.daniel {
-    background-color: #FFFFFF;
-}
 .personal{
     font-weight: 500;
     font-size: 20px;
@@ -177,7 +173,7 @@ ul {
     color: #434455;
 }
 
-.final{
+footer{
     color: #2e2f42;
 }
 
@@ -191,7 +187,7 @@ ul {
     color: #4d5ae5;
 }
 
-.logo2{
+span{
     color: #2e2f42;
 
 }
